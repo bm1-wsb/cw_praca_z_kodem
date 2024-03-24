@@ -3,4 +3,4 @@ install:
 flask:
 	python -m flask run
 pylint:
-	pylint.app.py
+	python -m pylint app.py
